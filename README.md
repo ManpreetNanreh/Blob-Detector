@@ -1,2 +1,2 @@
 # Blob-Detector
-A Java application which generated a Grid of pixels at radom. 
+A Java application which generates a Grid at random and detects the number of blobs in it. The Grid is composed of black and white pixels where black pixels are indicated by the letter X and the white pixels are indicated by a dot. This allows to mimic a problem from image processing where the goal is to label connected components of pixels also known as blobs. The blob detection is done recursively where the current X and its neighbours are marked until the entire blob is detected.
